@@ -1,0 +1,17 @@
+/*Estilos Header*/
+header{
+    background: transparent;
+    & .jumbotron{
+        background-image: url(../img/cabecera.png);
+        background-size: cover;
+        background-position: center;
+        margin:0;
+        border-radius:0;
+        & p{
+            color:$colorparrafoJT;
+            text-shadow: 0 0 7px #222;
+            margin:0;
+            border-radius:0;
+        }
+    }
+}

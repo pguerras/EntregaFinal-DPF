@@ -1,0 +1,47 @@
+/*Estilos Main Servicios*/
+.container-fluid{
+    & .row{
+        & .serv{
+            height: 300px;
+            background-color: rgb(0, 60, 255);
+            background-size: cover;
+            border: 2px solid #222;
+            }    
+    }
+    & .serv1{
+        background-image: url(../img/desasistem.jpg);
+    }
+    & .serv2{
+        background-image: url(../img/datascience.jpg);
+    }
+    
+    & .serv3{
+        background-image: url(../img/fintech3.jpg);
+    }
+    
+    & .serv4{
+        background-image: url(../img/edutech.jpg);
+    }
+    
+    & .serv5{
+        background-image: url(../img/ai.jpg);
+    }
+    
+    & .serv6{
+        background-image: url(../img/machinelearning.jpeg);
+    }
+    
+    & .serv7{
+        background-image: url(../img/cloudcomputing.jpg);
+    }
+    
+    & .serv8{
+        background-image: url(../img/consultoria-informatica.png);
+    }
+    
+}
+
+
+
+
+

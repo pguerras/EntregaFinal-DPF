@@ -1,0 +1,103 @@
+/*Estilos Main Nosotros*/
+.nosotros{
+    min-height: 400px;
+    & .container{
+        background: transparent;
+        & .row{
+            & .n-left{
+                text-justify: auto;
+            }
+            & .n-right{
+                height: 580px;
+                background-image: url(../img/nosotros.jpg);
+                background-size: cover;
+            }      
+        }
+    }
+}
+
+//Inicio Mapa
+
+$imagenes: (
+    /*Declaramos nuestro mapa*/
+    nos1: url(../img/nosotros1.jpg),
+    nos2: url(../img/nosotros2.jpg),
+    nos3: url(../img/nosotros3.jpg),
+    nos4: url(../img/nosotros4.jpg),
+    );
+
+    
+/*Creamos el bucle para usar los valores del mapa*/
+@each $nos, $imagen in $imagenes {
+    .img--#{$nos} {
+        background-image: $imagen;
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        width: 100%;
+        border: 2px solid #333;
+        text-align: center;
+        font-size: 50px;
+        line-height: 200px;
+        color: #fff;
+        text-transform: uppercase;
+        text-shadow: 0 0 5px red ;
+    }
+}
+//Fin Mapa
+
+//con los extends vamos a agregar los estilos de otra clase
+//extens - inicio
+
+.cuadromensaje {
+    border: 2px solid #333;
+    background-color: orangered;
+    height: 200px;
+    width: 600px;
+    padding: 20px;
+}
+
+.cuadromensaje--nueva {
+    @extend .cuadromensaje;
+    border-width: 2px;
+    color: white;
+    font-size: $large;
+    text-align: center;
+    vertical-align: text-bottom;
+}
+
+//extens - fin
+
+//Los mixins Te permiten definir estilos que pueden ser reutilizados en tu proyecto.
+//Una de las mayores diferencias con los Extend, es que los Mixins pueden recibir argumentos,
+//los cuales nos permitirán producir una gran variedad de estilos con unas simples líneas.
+
+//mixins - inicio
+
+.cajamensaje {
+    background-color: $green;
+    font-size: $large;
+    color: #fff;
+    text-align: center;
+}
+
+@mixin sizes($width, $height, $bcolor) {
+    height: $height;
+    width: $width;
+    background-color: $bcolor;
+}
+
+.cajamensaje {
+    @include sizes(600px, 200px, blue);
+    
+}
+
+.cajamensaje2 {
+    @include sizes(400px, 200px, green);
+    //background-color: red;
+    color: white;
+    text-align: center;
+    font-size: $large;
+}
+
+//mixins - fin

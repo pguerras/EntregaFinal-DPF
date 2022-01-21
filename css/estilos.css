@@ -1,0 +1,322 @@
+/*Estilos Generales*/
+/*Estilos Header*/
+@import url("https://fonts.googleapis.com/css2?family=Pushster&family=Yanone+Kaffeesatz:wght@300&display=swap");
+header {
+  background: transparent;
+}
+header .jumbotron {
+  background-image: url(../img/cabecera.png);
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  border-radius: 0;
+}
+header .jumbotron p {
+  color: #c8ff00;
+  text-shadow: 0 0 7px #222;
+  margin: 0;
+  border-radius: 0;
+}
+
+/*Estilos Main Nosotros*/
+.nosotros {
+  min-height: 400px;
+}
+.nosotros .container {
+  background: transparent;
+}
+.nosotros .container .row .n-left {
+  text-justify: auto;
+}
+.nosotros .container .row .n-right {
+  height: 580px;
+  background-image: url(../img/nosotros.jpg);
+  background-size: cover;
+}
+
+/*Creamos el bucle para usar los valores del mapa*/
+.img--nos1 {
+  background-image: url(../img/nosotros1.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 50px;
+  line-height: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px red;
+}
+
+.img--nos2 {
+  background-image: url(../img/nosotros2.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 50px;
+  line-height: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px red;
+}
+
+.img--nos3 {
+  background-image: url(../img/nosotros3.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 50px;
+  line-height: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px red;
+}
+
+.img--nos4 {
+  background-image: url(../img/nosotros4.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  width: 100%;
+  border: 2px solid #333;
+  text-align: center;
+  font-size: 50px;
+  line-height: 200px;
+  color: #fff;
+  text-transform: uppercase;
+  text-shadow: 0 0 5px red;
+}
+
+.cuadromensaje, .cuadromensaje--nueva {
+  border: 2px solid #333;
+  background-color: orangered;
+  height: 200px;
+  width: 600px;
+  padding: 20px;
+}
+
+.cuadromensaje--nueva {
+  border-width: 2px;
+  color: white;
+  font-size: 60px;
+  text-align: center;
+  vertical-align: text-bottom;
+}
+
+.cajamensaje {
+  background-color: #0f9243;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+}
+
+.cajamensaje {
+  height: 200px;
+  width: 600px;
+  background-color: blue;
+}
+
+.cajamensaje2 {
+  height: 200px;
+  width: 400px;
+  background-color: green;
+  color: white;
+  text-align: center;
+  font-size: 60px;
+}
+
+/*Estilos Main Servicios*/
+.container-fluid .row .serv {
+  height: 300px;
+  background-color: #003cff;
+  background-size: cover;
+  border: 2px solid #222;
+}
+.container-fluid .serv1 {
+  background-image: url(../img/desasistem.jpg);
+}
+.container-fluid .serv2 {
+  background-image: url(../img/datascience.jpg);
+}
+.container-fluid .serv3 {
+  background-image: url(../img/fintech3.jpg);
+}
+.container-fluid .serv4 {
+  background-image: url(../img/edutech.jpg);
+}
+.container-fluid .serv5 {
+  background-image: url(../img/ai.jpg);
+}
+.container-fluid .serv6 {
+  background-image: url(../img/machinelearning.jpeg);
+}
+.container-fluid .serv7 {
+  background-image: url(../img/cloudcomputing.jpg);
+}
+.container-fluid .serv8 {
+  background-image: url(../img/consultoria-informatica.png);
+}
+
+/*Estilos Formulario Contacto*/
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+}
+.contact_form .formulario {
+  background: transparent;
+}
+.contact_form .formulario .aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+.contact_form .formulario p {
+  font-size: 14px;
+  color: #0e0e0e;
+}
+.contact_form .formulario p label {
+  display: block;
+  float: center;
+}
+.contact_form .formulario p input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2174ac;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.contact_form .formulario p textarea {
+  background-color: #fbfbfb;
+  width: 405px;
+  height: 150px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #2174ac;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+.contact_form .formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+.contact_form .formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+.contact_form .formulario ::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+.contact_form .formulario ::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+.contact_form button {
+  height: 45px;
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #2174ac;
+  border-color: #2174ac 493;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+  cursor: pointer;
+}
+.contact_form button p {
+  color: #fff;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* @import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+-- font-family: 'Pushster', cursive;
+ */
+/* font-family: 'Pushster', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+ */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Estilos de la pagina Contacto*/
+#BodyContacto {
+  height: 100%;
+  font-family: Arial, Helvetica, sans-serif;
+  /* : 'Noto Sans', sans-serif;*/
+  background-color: #2174ac;
+}
+
+.text-white {
+  font-family: "Yanone Kaffeesatz", sans-serif;
+  font-size: 20px;
+  text-align: justify;
+  margin: 20px;
+}
+
+.sol {
+  height: 300px;
+  background-color: #003cff;
+  border: 2px solid #222;
+}
+
+.sec {
+  width: 100%;
+  align-content: center;
+}
+
+.carousel-inner {
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-item img {
+  width: 100%;
+}
+
+span {
+  color: #ab4493;
+}
+
+h1 {
+  font-size: 39px;
+  text-align: letf;
+  padding-bottom: 20px;
+  color: #2174ac;
+}
+
+h2 {
+  text-align: center;
+  color: tomato;
+  text-transform: capitalize;
+}
+
+h3 {
+  font-size: 16px;
+  padding-bottom: 30px;
+  color: #0e0e0e;
+}
+
+/*# sourceMappingURL=estilos.css.map */
